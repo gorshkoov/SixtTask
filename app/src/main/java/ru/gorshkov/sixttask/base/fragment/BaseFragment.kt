@@ -1,4 +1,4 @@
-package ru.gorshkov.sixttask.base
+package ru.gorshkov.sixttask.base.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

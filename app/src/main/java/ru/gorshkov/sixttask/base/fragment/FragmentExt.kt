@@ -1,4 +1,4 @@
-package ru.gorshkov.sixttask.base
+package ru.gorshkov.sixttask.base.fragment
 
 import android.widget.Toast
 import androidx.fragment.app.Fragment

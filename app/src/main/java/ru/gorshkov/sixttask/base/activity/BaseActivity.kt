@@ -1,4 +1,4 @@
-package ru.gorshkov.sixttask.base
+package ru.gorshkov.sixttask.base.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

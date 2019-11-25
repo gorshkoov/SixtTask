@@ -28,8 +28,9 @@ ext {
 
         //Tests
         testImplementation 'junit:junit:4.12'
-        androidTestImplementation 'androidx.test:runner:1.2.0'
-        androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+        testImplementation "com.nhaarman.mockitokotlin2:mockito-kotlin:$mockito_version"
+        testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_test_version"
+        testImplementation "android.arch.core:core-testing:$arch_test_version"
 
         //Google services
         implementation "com.google.android.gms:play-services-maps:$map_version"

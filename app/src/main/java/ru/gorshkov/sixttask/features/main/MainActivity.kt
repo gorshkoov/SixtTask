@@ -6,7 +6,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import androidx.lifecycle.Observer
 import ru.gorshkov.sixttask.R
-import ru.gorshkov.sixttask.base.BaseActivity
+import ru.gorshkov.sixttask.base.activity.BaseActivity
 import ru.gorshkov.sixttask.navigator.MainNavigator
 import javax.inject.Inject
 

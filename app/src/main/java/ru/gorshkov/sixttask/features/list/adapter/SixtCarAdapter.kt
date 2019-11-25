@@ -3,7 +3,7 @@ package ru.gorshkov.sixttask.features.list.adapter
 import android.view.View
 import androidx.recyclerview.widget.DiffUtil
 import ru.gorshkov.sixttask.R
-import ru.gorshkov.sixttask.base.BaseAdapter
+import ru.gorshkov.sixttask.base.adapter.BaseAdapter
 import ru.gorshkov.sixttask.data.pojo.SixtCar
 
 class SixtCarAdapter : BaseAdapter<SixtCar, SixtCarViewHolder>() {

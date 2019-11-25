@@ -15,6 +15,7 @@
     <string name="diesel_short">D</string>
     <string name="electronic_short">E</string>
 
+    <string name="unspecified">unspecified</string>
     <string name="regular">regular</string>
     <string name="clean">clean</string>
     <string name="very_clean">very clean</string>

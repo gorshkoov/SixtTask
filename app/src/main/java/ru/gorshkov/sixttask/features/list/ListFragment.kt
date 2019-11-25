@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.fragment_list.*
 import ru.gorshkov.sixttask.R
-import ru.gorshkov.sixttask.base.ViewModelFragment
-import ru.gorshkov.sixttask.base.injectViewModel
+import ru.gorshkov.sixttask.base.fragment.ViewModelFragment
+import ru.gorshkov.sixttask.base.fragment.injectViewModel
 import ru.gorshkov.sixttask.features.list.adapter.SixtCarAdapter
 import ru.gorshkov.sixttask.features.main.MainViewModel
 

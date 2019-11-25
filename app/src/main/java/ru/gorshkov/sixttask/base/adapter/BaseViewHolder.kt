@@ -1,4 +1,4 @@
-package ru.gorshkov.sixttask.base
+package ru.gorshkov.sixttask.base.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

@@ -1,4 +1,4 @@
-package ru.gorshkov.sixttask.base
+package ru.gorshkov.sixttask.base.adapter
 
 import android.view.LayoutInflater
 import android.view.View

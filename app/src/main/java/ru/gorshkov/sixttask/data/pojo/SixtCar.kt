@@ -9,14 +9,14 @@ data class SixtCar(
     val driverName: String = "",
     val make: String = "",
     val group: String = "",
-    val color: SixtColor,
+    val color: SixtColor? = null,
     val series: String = "",
-    val fuelType: SixtFuel,
+    val fuelType: SixtFuel? = null,
     val fuelLevel: Double = 0.0,
-    val transmission: SixtTransmission,
+    val transmission: SixtTransmission? = null,
     val licensePlate: String = "",
     val latitude: Double = 0.0,
     val longitude: Double = 0.0,
-    val innerCleanliness: SixtCleanliness,
+    val innerCleanliness: SixtCleanliness? = null,
     val carImageUrl: String = ""
 )

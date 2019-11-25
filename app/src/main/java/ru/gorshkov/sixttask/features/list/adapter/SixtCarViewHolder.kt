@@ -7,7 +7,7 @@ import androidx.core.content.ContextCompat
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import kotlinx.android.synthetic.main.holder_sixt_car.view.*
 import ru.gorshkov.sixttask.R
-import ru.gorshkov.sixttask.base.BaseViewHolder
+import ru.gorshkov.sixttask.base.adapter.BaseViewHolder
 import ru.gorshkov.sixttask.base.GlideApp
 import ru.gorshkov.sixttask.data.pojo.*
 
@@ -38,24 +38,26 @@ class SixtCarViewHolder(private val view: View) : BaseViewHolder<SixtCar>(view) 
     }
 
     @StringRes
-    private fun getCleanlinessText(cleanliness: SixtCleanliness): Int {
+    private fun getCleanlinessText(cleanliness: SixtCleanliness?): Int {
         return when (cleanliness) {
             SixtCleanliness.REGULAR -> R.string.regular
             SixtCleanliness.CLEAN -> R.string.clean
             SixtCleanliness.VERY_CLEAN -> R.string.very_clean
+            else -> R.string.unspecified
         }
     }
 
     @StringRes
-    private fun getFuelText(fuel: SixtFuel): Int {
+    private fun getFuelText(fuel: SixtFuel?): Int {
         return when (fuel) {
             SixtFuel.PETROL -> R.string.petrol_short
             SixtFuel.DIESEL -> R.string.diesel_short
             SixtFuel.ELECTRO -> R.string.electronic_short
+            else -> R.string.petrol_short
         }
     }
 
-    private fun getColor(color: SixtColor): Int {
+    private fun getColor(color: SixtColor?): Int {
         return when (color) {
             SixtColor.ABSOLUTE_BLACK_METAL,
             SixtColor.SCHWARZ,
@@ -70,6 +72,7 @@ class SixtCarViewHolder(private val view: View) : BaseViewHolder<SixtCar>(view) 
             SixtColor.ALPINWEISS -> R.color.white
 
             SixtColor.ICED_CHOCOLATE -> R.color.iced
+            else -> R.color.orange
         }
     }
 }

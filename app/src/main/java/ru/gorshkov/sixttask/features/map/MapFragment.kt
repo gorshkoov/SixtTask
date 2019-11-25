@@ -12,8 +12,8 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.android.synthetic.main.fragment_map.*
 import ru.gorshkov.sixttask.R
-import ru.gorshkov.sixttask.base.ViewModelFragment
-import ru.gorshkov.sixttask.base.injectViewModel
+import ru.gorshkov.sixttask.base.fragment.ViewModelFragment
+import ru.gorshkov.sixttask.base.fragment.injectViewModel
 import ru.gorshkov.sixttask.data.pojo.SixtCar
 import ru.gorshkov.sixttask.features.main.MainViewModel
 
