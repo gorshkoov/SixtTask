@@ -4,7 +4,6 @@ ext {
 
         //Kotlin
         implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-        implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:$serialization_version"
 
         //Android
         implementation "androidx.appcompat:appcompat:$appcompat_version"
