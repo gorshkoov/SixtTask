@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_menu_height">56dp</dimen>
+    <dimen name="bottom_menu_elevation">16dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="holder_car_image_width">210dp</dimen>
+    <dimen name="holder_car_image_height">130dp</dimen>
+    <dimen name="holder_car_color_size">20dp</dimen>
+    <dimen name="list_error_text_size">20sp</dimen>
+</resources>

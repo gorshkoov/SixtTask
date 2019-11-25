@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SixtTask</string>
+    <string name="default_error">Oops, something goes wrong!</string>
+    <string name="list_error">Error, while getting the list of cars</string>
+
+    <string name="map_title">Map</string>
+    <string name="list_title">List</string>
+
+    <string name="driver_name">Driver name:</string>
+    <string name="license_plate">License plate:</string>
+    <string name="params">Params:</string>
+    <string name="cleanliness">Cleanliness:</string>
+
+    <string name="petrol_short">P</string>
+    <string name="diesel_short">D</string>
+    <string name="electronic_short">E</string>
+
+    <string name="regular">regular</string>
+    <string name="clean">clean</string>
+    <string name="very_clean">very clean</string>
+</resources>

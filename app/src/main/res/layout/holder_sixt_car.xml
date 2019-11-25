@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/orange">
+
+    <TextView
+        android:id="@+id/model_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_8dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/padding_8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Bmw i3" />
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="@dimen/holder_car_image_width"
+        android:layout_height="@dimen/holder_car_image_height"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="#4000"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/driver_name_title"
+        style="@style/holderTitleStyle"
+        android:text="@string/driver_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/model_name_text" />
+
+    <TextView
+        android:id="@+id/driver_name_text"
+        style="@style/holderNameStyle"
+        app:layout_constraintBottom_toBottomOf="@id/driver_name_title"
+        app:layout_constraintStart_toEndOf="@id/driver_name_title"
+        app:layout_constraintTop_toTopOf="@id/driver_name_title"
+        tools:text="Alex" />
+
+    <TextView
+        android:id="@+id/license_plate_title"
+        style="@style/holderTitleStyle"
+        android:text="@string/license_plate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/driver_name_title" />
+
+    <TextView
+        android:id="@+id/license_plate_text"
+        style="@style/holderNameStyle"
+        app:layout_constraintBottom_toBottomOf="@id/license_plate_title"
+        app:layout_constraintStart_toEndOf="@id/license_plate_title"
+        app:layout_constraintTop_toTopOf="@id/license_plate_title"
+        tools:text="M-80000" />
+
+    <TextView
+        android:id="@+id/params_title"
+        style="@style/holderTitleStyle"
+        android:text="@string/params"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/license_plate_title" />
+
+    <ImageView
+        android:id="@+id/color_image"
+        android:layout_width="@dimen/holder_car_color_size"
+        android:layout_height="@dimen/holder_car_color_size"
+        android:src="@drawable/ic_list_color"
+        app:layout_constraintBottom_toBottomOf="@id/params_title"
+        app:layout_constraintStart_toEndOf="@id/params_title"
+        app:layout_constraintTop_toTopOf="@id/params_title"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/transmission_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/padding_8dp"
+        app:layout_constraintBottom_toBottomOf="@id/params_title"
+        app:layout_constraintStart_toEndOf="@id/color_image"
+        app:layout_constraintTop_toTopOf="@id/params_title"
+        tools:background="#4000"
+        tools:ignore="ContentDescription"
+        tools:layout_height="20dp"
+        tools:layout_width="20dp" />
+
+    <TextView
+        android:id="@+id/fuel_text"
+        style="@style/holderTitleStyle"
+        android:layout_marginStart="@dimen/padding_8dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/params_title"
+        app:layout_constraintStart_toEndOf="@id/transmission_image"
+        app:layout_constraintTop_toTopOf="@id/params_title"
+        tools:text="P" />
+
+    <TextView
+        android:id="@+id/cleanliness_title"
+        style="@style/holderTitleStyle"
+        android:text="@string/cleanliness"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/params_title" />
+
+    <TextView
+        android:id="@+id/cleanliness_text"
+        style="@style/holderNameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@id/cleanliness_title"
+        app:layout_constraintStart_toEndOf="@id/cleanliness_title"
+        app:layout_constraintTop_toTopOf="@id/cleanliness_title"
+        tools:text="Clean" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
